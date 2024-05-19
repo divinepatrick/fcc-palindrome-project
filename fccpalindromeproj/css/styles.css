@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #5fa2ff, #feb47b);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#text-input,
+#check-btn {
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+#text-input {
+    width: 300px;
+    border: 2px solid #ff7e5f;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    text-align: center;
+}
+
+#check-btn {
+    background-color: #ff7e5f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#check-btn:hover {
+    background-color: #feb47b;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
